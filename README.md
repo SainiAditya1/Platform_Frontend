@@ -5,10 +5,11 @@
 - **Node.js** and **npm**
 
 ### Installation
+### Frontend  ([Frontend](https://github.com/SainiAditya1/Platform_Frontend.git))
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Rohit-554/TripSage-frontend.git
+   https://github.com/SainiAditya1/Platform_Frontend.git
    ```
 2. Install dependencies:
    ```bash
@@ -24,3 +25,25 @@
    npm run dev
    ```
 5. Open `http://localhost:3000` in your browser.
+
+### Backend  ([Backend](https://github.com/SainiAditya1/Platform_Backend.git))
+
+1. Clone the repository:
+   ```bash
+   https://github.com/SainiAditya1/Platform_Backend.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Set up environment variables in `.env`:
+   ```bash
+   PORT="9000"
+   DB="mongodb url"
+   CLIENT_URL = http://localhost:3000
+   JWT_SECRET = "jwtsecret"
+   ```
+4. Start the development server:
+   ```bash
+   node app.js
+   ```
