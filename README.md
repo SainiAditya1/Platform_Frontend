@@ -1,3 +1,8 @@
+# Platform for Goods Transportation
+ 
+ This project is an On-Demand Logistics Platform designed to facilitate the transportation of goods by connecting users with a fleet of drivers. The platform offers a seamless booking experience, allowing users to request transportation services,
+
+
 ## Getting Started
 
 ### Prerequisites
