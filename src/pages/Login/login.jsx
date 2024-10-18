@@ -17,6 +17,22 @@ const Login = () => {
     handleRoleChange,
   } = useLogin();
 
+
+  const titleStyles = {
+    textAlign: 'center',
+    color: 'blue',
+    cursor: 'pointer',
+  };
+
+  const handleMouseDown = (e) => {
+    e.target.style.color = 'darkblue';
+  };
+
+  const handleMouseUp = (e) => {
+    e.target.style.color = 'blue';
+  };
+
+
   return (
     <div className="login-container">
       <ToastContainer />
